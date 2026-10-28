@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "model-quai",
+			"path": "../../Downloads/model-quai"
+		},
+		{
+			"name": "game",
+			"path": "."
+		}
+	]
+}
