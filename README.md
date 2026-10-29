@@ -1,34 +1,44 @@
-# Lanternfall RPG Prototype
+# Lanternfall RPG
 
-Khung game HTML5 RPG theo lượt, xây dựng bằng JavaScript, Phaser 3 và Vite. Hiện tại toàn bộ màn hình chỉ dùng hình khối, đường viền và chữ; dự án không kèm hình ảnh, âm thanh hoặc hoạt ảnh.
+A dark fantasy turn-based dungeon exploration RPG application built with React, TypeScript, Vite, and Tailwind CSS.
 
-## Chạy trong VS Code
+## Features
 
-1. Mở thư mục dự án trong VS Code.
-2. Cài Node.js bản LTS nếu máy chưa có.
-3. Mở Terminal > New Terminal và chạy `npm install` một lần.
-4. Chạy `npm run dev`.
-5. Mở địa chỉ localhost mà Vite in ra trong trình duyệt.
+- **Story & Menus**: Title screen with New Game, Continue (persistent save state support), and lore introduction featuring Aster Vale.
+- **Dungeon Exploration**:
+  - 14x9 tactical floor map with walls, chests, NPCs, monsters, and sealed boss chambers.
+  - Multi-input controls: WASD / Arrow keys, tile clicking, and on-screen directional buttons.
+  - Nearby detection radar with proximity interaction (`[E]` key or interactive button).
+  - Field panels: Live Adventurer vitals (HP/MP bars), Party Roster, Inventory modal, Formation overview, 5-Floor World Map, and Pause menu.
+- **Turn-Based Tactical Combat**:
+  - Full party representation (Warrior, Ranger, Mage) facing up to 3 monsters or formidable bosses.
+  - Animated pixel art spritesheets (8-frame idle cycles) and crisp retro static enemy sprites.
+  - Dynamic initiative turn order ordered by Speed (SPD).
+  - Combat commands: Attack, Skill (Power Strike), Magic (Ember), Item (Potion healing), Guard (damage reduction), and Run.
+  - Live combat action log and post-battle resolution (Replay or Return to Dungeon).
+- **5 Mysterious Tower Floors**:
+  - Floor 1: The Sunken Archive (Boss: Ice King)
+  - Floor 2: Ashen Vaults (Boss: Ember Warden)
+  - Floor 3: Frostglass Catacombs (Boss: Frost Queen)
+  - Floor 4: Root of the Hollow (Boss: Thorn Sentinel)
+  - Floor 5: Crown of Lanternfall (Boss: Lantern King)
+- **Persistence**: Automatic game save and resume backed by localStorage.
 
-Để kiểm tra bản build, chạy `npm run build`. Phaser hiển thị khung 1280×720 theo tỷ lệ 16:9 và tự co giãn vừa cửa sổ.
+## Development
 
-## Điều khiển
+```bash
+npm install
+npm run dev
+```
 
-- Dungeon: di chuyển bằng WASD hoặc phím mũi tên; nhấn E hoặc nút Interact khi đứng cạnh Cave Wisp để vào trận.
-- Battle: chọn Attack, Skill, Magic, Item, Guard hoặc Run. Chờ lượt Cave Wisp hoàn tất trước hành động tiếp theo.
-- Thắng, thua hoặc Run sẽ mở Replay và Return to Dungeon.
-- Inventory, Formation, World Map và Pause đều có phản hồi giao diện. Các điểm tương tác rương, NPC và cửa ra hiện là mô tả thử nghiệm.
+Build for production:
 
-## Cấu trúc
+```bash
+npm run build
+```
 
-- `src/scenes/`: màn khám phá và màn chiến đấu, chỉ phụ trách hiển thị/input Phaser.
-- `src/systems/CombatSystem.js`: logic lượt và kết quả trận chiến, không phụ thuộc Phaser.
-- `src/data/`: mẫu 5 nghề, dữ liệu nhân vật, trạng thái ban đầu và manifest tài nguyên.
-- `src/ui/`: màu sắc, kích thước và helper giao diện dùng chung.
-- `assets/`: thư mục trống dành cho pixel art và âm thanh tự tạo.
+Run test suite:
 
-Frame sprite sheet được quy ước là 128×128 trong `src/data/assetManifest.js`. Đường dẫn tài nguyên tương lai được tập trung tại `ASSET_PATHS`; không có sprite nào được nạp trong prototype. Phaser bật `pixelArt`, tắt antialias và canvas dùng `image-rendering: pixelated` để hạn chế nội suy mờ khi thêm pixel art.
-
-## Chưa triển khai
-
-Chưa có pixel art, tileset thật, âm thanh, hoạt ảnh, chiến đấu nhiều nhân vật hoặc cân bằng chỉ số. Skill/Magic/Item có hiệu ứng thử nghiệm tối giản; trang bị và trạng thái chỉ mới có chỗ trong cấu trúc dữ liệu.
+```bash
+npm test
+```

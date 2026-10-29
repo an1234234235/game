@@ -13,7 +13,12 @@ export function createInitialGameState() {
       experience: 0,
       gold: 0,
       level: 1,
+      skillPoints: 3,
+      unlockedSkills: { power_strike: 1 },
+      skills: ['power_strike'],
     },
+    skillPoints: 3,
+    unlockedSkills: { power_strike: 1 },
     party: [
       createCharacter('warrior', { name: 'Aster Vale' }),
       createCharacter('ranger', { name: 'Lio Fen' }),

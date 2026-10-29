@@ -1,0 +1,8 @@
+{
+  "name": "Lanternfall RPG",
+  "description": "A dark fantasy turn-based dungeon exploration RPG prototype with party combat, tactical initiative, and five mysterious ruined floors.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
