@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ColonyPilot.SettingsCategory>Colony Pilot</ColonyPilot.SettingsCategory>
+  <ColonyPilot.ManageWorkPriorities>Tự động cân bằng độ ưu tiên công việc của colonist</ColonyPilot.ManageWorkPriorities>
+  <ColonyPilot.ManageResearch>Tự chọn nghiên cứu khả dụng</ColonyPilot.ManageResearch>
+  <ColonyPilot.ManageFarming>Tự tạo ruộng khoai tây khi thiếu thức ăn</ColonyPilot.ManageFarming>
+  <ColonyPilot.ManageShelter>Tự xây nơi trú ẩn có mái khi cần</ColonyPilot.ManageShelter>
+  <ColonyPilot.ManageProduction>Tự tạo bill nấu 20 bữa ăn đơn giản</ColonyPilot.ManageProduction>
+  <ColonyPilot.ManageTrading>Tự giao dịch khi mở cửa sổ trao đổi</ColonyPilot.ManageTrading>
+  <ColonyPilot.ManageCombat>Tự điều colonist chiến đấu với pawn thù địch</ColonyPilot.ManageCombat>
+  <ColonyPilot.ManageStockpiles>Tạo kho chứa chung nếu bản đồ thuộc địa chưa có kho</ColonyPilot.ManageStockpiles>
+  <ColonyPilot.ManageBaseDefense>Tự lập tuyến bao cát phòng thủ dựa trên seed bản đồ</ColonyPilot.ManageBaseDefense>
+  <ColonyPilot.ManageDiplomacy>Tự cải thiện quan hệ phe phái đủ điều kiện bằng hàng dư</ColonyPilot.ManageDiplomacy>
+  <ColonyPilot.PauseOnHostileThreats>Tạm dừng khi có địch (chỉ khi tắt tự chiến đấu)</ColonyPilot.PauseOnHostileThreats>
+  <ColonyPilot.HostileThreatPaused>Colony Pilot đã tạm dừng game vì phát hiện pawn thù địch. Hãy kiểm tra tình hình trước khi tiếp tục.</ColonyPilot.HostileThreatPaused>
+  <ColonyPilot.CombatEngaged>Colony Pilot đã điều các colonist có thể chiến đấu để bảo vệ thuộc địa.</ColonyPilot.CombatEngaged>
+  <ColonyPilot.AutoTradeComplete>Colony Pilot đã hoàn tất giao dịch tự động.</ColonyPilot.AutoTradeComplete>
+  <ColonyPilot.AutoTradeReserve>Giao dịch mua bị hủy để giữ lại bạc dự trữ.</ColonyPilot.AutoTradeReserve>
+  <ColonyPilot.AutoTradeFailed>Không thể hoàn tất giao dịch tự động; cửa sổ trao đổi vẫn mở.</ColonyPilot.AutoTradeFailed>
+  <ColonyPilot.DiplomaticGiftComplete>Colony Pilot đã gửi một món quà giới hạn từ hàng dư cho phe {0} để cải thiện quan hệ.</ColonyPilot.DiplomaticGiftComplete>
+  <ColonyPilot.SettingsHelp>Độ ưu tiên được tính lại khoảng một lần mỗi giờ trong game. Chữa cháy và chăm sóc bệnh nhân luôn được ưu tiên cao nhất. Mod tăng ưu tiên bác sĩ khi có colonist cần điều trị, tăng ưu tiên trồng trọt và nấu ăn khi dự trữ thức ăn thấp, và tăng ưu tiên xây dựng khi còn blueprint đang chờ. Mod theo dõi lượng thức ăn để ước tính tiêu thụ rồi điều chỉnh mục tiêu ruộng và giao dịch; dự trữ thuốc cũng thay đổi theo số colonist và nhu cầu điều trị, còn lượng bữa ăn và kích thước kho thay đổi theo quy mô thuộc địa. Khi thiếu thức ăn, mod có thể tạo tối đa hai ruộng khoai tây. Nếu không có chỗ ngủ có mái, mod sẽ lập kế hoạch xây một căn trú ẩn gỗ nhỏ và chỉ làm mái sau khi tường cùng cửa đã hoàn thành. Mod tạo kho chung và một tuyến bao cát nhỏ có hướng thay đổi theo seed, dựa trên địa hình thực tế của map và chỉ khi đủ vật liệu. Khi bạn mở cửa sổ tặng quà, mod có thể tặng tối đa lượng hàng dư trị giá 500 bạc cho phe không thù địch, giữ lại ít nhất 100 món mỗi loại; mod không tự sửa quan hệ trực tiếp. Khi có địch, mod điều colonist đủ khả năng tấn công kẻ địch gần nhất và chỉ bỏ điều khiển những người do mod tự điều sau khi hết nguy hiểm. Kiểm tra địch mỗi giây trong game.</ColonyPilot.SettingsHelp>
+</LanguageData>

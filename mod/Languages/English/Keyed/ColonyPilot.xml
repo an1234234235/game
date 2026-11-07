@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ColonyPilot.SettingsCategory>Colony Pilot</ColonyPilot.SettingsCategory>
+  <ColonyPilot.ManageWorkPriorities>Automatically balance colonist work priorities</ColonyPilot.ManageWorkPriorities>
+  <ColonyPilot.ManageResearch>Automatically select an available research project</ColonyPilot.ManageResearch>
+  <ColonyPilot.ManageFarming>Automatically create a potato farm when food is low</ColonyPilot.ManageFarming>
+  <ColonyPilot.ManageShelter>Automatically build a roofed starter shelter when needed</ColonyPilot.ManageShelter>
+  <ColonyPilot.ManageProduction>Automatically add a simple-meal bill targeting 20 meals</ColonyPilot.ManageProduction>
+  <ColonyPilot.ManageTrading>Automatically trade when a trade window is opened</ColonyPilot.ManageTrading>
+  <ColonyPilot.ManageCombat>Automatically draft colonists to attack hostile pawns</ColonyPilot.ManageCombat>
+  <ColonyPilot.ManageStockpiles>Create a general stockpile when a home map has none</ColonyPilot.ManageStockpiles>
+  <ColonyPilot.ManageBaseDefense>Automatically plan a seed-adaptive sandbag defense line</ColonyPilot.ManageBaseDefense>
+  <ColonyPilot.ManageDiplomacy>Automatically improve eligible faction relations with surplus gifts</ColonyPilot.ManageDiplomacy>
+  <ColonyPilot.PauseOnHostileThreats>Pause when hostiles are detected (only if automatic combat is disabled)</ColonyPilot.PauseOnHostileThreats>
+  <ColonyPilot.HostileThreatPaused>Colony Pilot paused the game after detecting a hostile pawn. Review the situation before resuming.</ColonyPilot.HostileThreatPaused>
+  <ColonyPilot.CombatEngaged>Colony Pilot drafted available colonists to defend the colony.</ColonyPilot.CombatEngaged>
+  <ColonyPilot.AutoTradeComplete>Colony Pilot completed an automatic trade.</ColonyPilot.AutoTradeComplete>
+  <ColonyPilot.AutoTradeReserve>Purchases were canceled to preserve the silver reserve.</ColonyPilot.AutoTradeReserve>
+  <ColonyPilot.AutoTradeFailed>Automatic trade could not be completed; the trade window remains open.</ColonyPilot.AutoTradeFailed>
+  <ColonyPilot.DiplomaticGiftComplete>Colony Pilot sent a limited surplus gift to {0} to improve relations.</ColonyPilot.DiplomaticGiftComplete>
+  <ColonyPilot.SettingsHelp>Priorities are recalculated about once per in-game hour. Firefighting and patient care stay at the highest priority. Doctor work is promoted when colonists need tending; growing and cooking are promoted when food reserves are low; construction is promoted while blueprints are waiting. Research is selected only when needed. The mod samples food reserves over time to estimate consumption and adjusts farm and trade targets; medicine reserve also responds to colony size and treatment needs, while meal production and stockpile size scale with colonist count. When food runs low, it can create up to two potato farms. If no roofed sleeping area is available, it plans one small wood shelter and adds a constructed roof after its walls and door are built. It creates a general stockpile and a small seed-varied sandbag firing line using the current map terrain when resources allow. In gift-trade mode it may give up to 500 silver worth of surplus stackable goods to a non-hostile faction, keeping at least 100 of each item; it never changes faction relations directly. Automatic combat drafts capable colonists against the nearest attackable hostile and undrafts only colonists it drafted when danger ends. Threat handling checks every in-game second.</ColonyPilot.SettingsHelp>
+</LanguageData>

@@ -1,0 +1,4 @@
+C:\Users\Admin\Documents\mod\Source\ColonyPilot\obj\Release\ColonyPilot.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\mod\Source\ColonyPilot\obj\Release\ColonyPilot.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\mod\Assemblies\ColonyPilot.dll
+C:\Users\Admin\Documents\mod\Source\ColonyPilot\obj\Release\ColonyPilot.dll

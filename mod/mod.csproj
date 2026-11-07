@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <RootNamespace>ColonyPilot</RootNamespace>
+    <AssemblyName>ColonyPilot</AssemblyName>
+    <OutputPath>./Assemblies/</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <RimWorldManagedPath Condition="'$(RimWorldManagedPath)' == ''">$(USERPROFILE)\Downloads\RimWorld nang caop.com\RimWorld\RimWorldWin64_Data\Managed</RimWorldManagedPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="./Source/ColonyPilot/*.cs" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(RimWorldManagedPath)\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(RimWorldManagedPath)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
